@@ -1,8 +1,8 @@
 import streamlit as st
 import ollama
 
-st.set_page_config(page_title="SKAI Technologies Chatbot", layout="centered")
-st.title("SKAI Technologies Chatbot")
+st.set_page_config(page_title="Ollama Chatbot", layout="centered")
+st.title("Ollama Chatbot")
 
 # required to maintain the chat history
 if "messages" not in st.session_state:
